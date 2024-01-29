@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tenzies</title>
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;700&family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Tenzies</h1>
+      <div id="description">
+        Roll until all dice are the same. Click each die to freeze its current value between rolls.
+      </div>
+      <div id="dice_container">
+        <div class="die" id="0"></div>
+        <div class="die" id="1"></div>
+        <div class="die" id="2"></div>
+        <div class="die" id="3"></div>
+        <div class="die" id="4"></div>
+        <div class="die" id="5"></div>
+        <div class="die" id="6"></div>
+        <div class="die" id="7"></div>
+        <div class="die" id="8"></div>
+        <div class="die" id="9"></div>
+      </div>
+      <button onclick="roll()" id="rollBtn">Roll</button>
+      <div id="message">
+        <div id="msg_img"><img src="./assets/images/granny.gif" alt="granny" width="250px" height="350px"/></div>
+        <div id="msg">CONGRATULATIONS! <br />
+        YOU JUST WASTED A MINUTE OR TWO, NOW GO AND FINISH YOUR ASSIGNMENTS!</div>
+      </div>
+    </div>
+    <script src="./assets/js/tenzies.js"></script>
+  </body>
+</html>
